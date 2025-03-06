@@ -54,7 +54,7 @@ body {
   list-style: none;
 }
 
-:hover {
+.nav__link:hover {
   color: var(--primary-color);
 }
 
