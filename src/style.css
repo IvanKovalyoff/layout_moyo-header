@@ -26,17 +26,23 @@ body {
 .nav__list {
   display: flex;
   box-sizing: border-box;
-
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.nav__item {
+  margin-left: 20px;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
 }
 
 .nav__link {
   display: block;
   align-content: center;
   box-sizing: border-box;
-  margin-left: 20px;
   text-transform: uppercase;
   height: 60px;
   line-height: 60px;
@@ -55,6 +61,11 @@ body {
 }
 
 .is-active::after {
+  position: absolute;
+  top: 56px;
+  right: 650px;
+  width: 37px;
+  bottom: 0;
   content: '';
   display: block;
   background-color: var(--primary-color);
