@@ -6,12 +6,10 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   margin: 0;
-  background-color: #fff;
 }
 
 .header {
   display: flex;
-  background-color: #fff;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
@@ -65,7 +63,6 @@ body {
   top: 56px;
   right: 650px;
   width: 37px;
-  bottom: 0;
   content: '';
   display: block;
   background-color: var(--primary-color);
